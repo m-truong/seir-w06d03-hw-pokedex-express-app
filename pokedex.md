@@ -35,7 +35,7 @@ Your app should:
 - Have the ability to add a new Pokémon
 - Have the ability to edit existing Pokémon
 - Have the ability to delete Pokémon
-- Have portfolio quality styling (we're giving you 2 nights for this assignment. Do it up!)
+- Style the app!
 
 ### Setting up
 
@@ -173,7 +173,6 @@ The order of your commits does not matter, but refer back to the MVP to make sur
 </details>
 
 ## Recommendations
-- You have two nights to complete this assignment. Make the most of it! Create a quick schedule for yourself. What do you want to complete on Day 1? What will you save for Day 2?
 - Before getting started with styling, create a wireframe! 
   - Consider starting your CSS with some defaults if you want full control over your design: <br/>
   ```css
@@ -192,7 +191,7 @@ The order of your commits does not matter, but refer back to the MVP to make sur
 ## Technical Requirements
 	
 - Your app MUST run without syntax errors. If there are errors you can't solve, comment them out and leave a comment above explaining what is wrong
-- Your app MUST have some styling! Portfolio quality styling is recommended but basic styling will be accepted if you're maxing out on your 4hrs per night. Leave a note in your Git Issue if this is the case. 
+- Your app MUST have some styling! 
 
  
 ---
