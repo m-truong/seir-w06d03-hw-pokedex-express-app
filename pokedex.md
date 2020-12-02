@@ -89,7 +89,7 @@ Here are suggestions for what to display on your Pokémon's show page:
 
 ## Style Your App
 
-Styling is required. Try and make your app look and act nicely with static assets (set up a public folder and add some css, js)-- consider using some jQuery! Portfolio quality styling is recommended, but basic styling will be accepted if you're maxing out on your 4hrs per night. Leave a note in your git issue if this is the case. 
+Styling is required. Try and make your app look and act nicely with static assets (set up a public folder and add some css, js)! Portfolio quality styling is recommended, but basic styling will be accepted if you're maxing out on your 4hrs per night. Leave a note in your git issue if this is the case. 
 
 ### Need some style inspiration?
 These are screenshots from what other students have done to their Pokedex:
