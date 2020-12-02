@@ -14,9 +14,9 @@ class Index extends React.Component {
                 <p>{currPokemon.name}</p>
                 <img src={currPokemon.img}/>
 
-                {/* <a href={`/pokemon/${index}`}>See More</a>
+                <a href={`/pokemon/${index}`}>See More Info</a>
 
-                <form action={`/pokemon/${index}?_method=delete`} method="POST">
+                {/* <form action={`/pokemon/${index}?_method=delete`} method="POST">
                   <input type="submit" value="DELETE THIS" />
                 </form> */}
 
