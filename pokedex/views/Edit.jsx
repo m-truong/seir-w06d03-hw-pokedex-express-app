@@ -3,27 +3,15 @@ const Layout = require("./components/Layout.jsx");
 
 class Edit extends React.Component {
   render() {
-
+    const pokemon = this.props.currPokemon;
+    const index = this.props.index;
     return (
       <Layout>
-
-        <h1>{fruit.name} Edit Page</h1>
-
-        <form action={`/fruits/${index}?_method=PUT`} method="POST">
-
-          Name: <input type="text" name="name" value={fruit.name} />
+        <h1>{pokemon.name} Edit Page</h1>
+        <form action={`/pokemon/${index}?_method=PUT`} method="POST">
+          Name: <input type="text" name="name" value={pokemon.name} />
           <br />
-          Color: <input type="text" name="color" value={fruit.color} />
-          <br />
-          Is Ready To Eat:
-          <input
-            type="checkbox"
-            name="readyToEat"
-
-            checked={fruit.readyToEat ? "checked" : ""}
-          />
-          <br />
-          <input type="submit" name="" value="Submit Changes" />
+          <input type="submit" name="" value="Submit Edits" />
         </form>
       </Layout>
     );

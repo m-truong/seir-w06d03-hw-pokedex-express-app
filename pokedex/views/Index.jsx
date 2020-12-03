@@ -13,15 +13,14 @@ class Index extends React.Component {
               <li>
                 <p>{currPokemon.name}</p>
                 <img src={currPokemon.img}/>
-
+                <br/>
                 <a href={`/pokemon/${index}`}>See More Info</a>
-
-                {/* <form action={`/pokemon/${index}?_method=delete`} method="POST">
-                  <input type="submit" value="DELETE THIS" />
-                </form> */}
-
-                {/* Edit the Pokemon */}
-                {/* <a href={`/pokemon/${index}/edit`}>Edit {currPokemon.name}</a> */}
+                <br/>
+                <form action={`/pokemon/${index}?_method=delete`} method="POST">
+                  <input type="submit" value="Delete Pokemon" />
+                </form>
+                <br/>
+                <a href={`/pokemon/${index}/edit`}>Edit {currPokemon.name}</a>
               </li>
             );
           })}
@@ -31,6 +30,4 @@ class Index extends React.Component {
   }
 }
 
-// always EXPORT this
-// yellow if exporting class
 module.exports = Index;

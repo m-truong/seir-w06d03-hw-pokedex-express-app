@@ -1,6 +1,5 @@
 const React = require("react");
 
-
 class Layout extends React.Component {
   render() {
     return (
@@ -10,16 +9,13 @@ class Layout extends React.Component {
           <link rel="stylesheet" href="/css/style.css" />
         </head>
         <body>
-
           <nav>
-              <a href="/pokemon">Home</a>
+            <a href="/pokemon">Home</a>
           </nav>
 
           {this.props.children}
 
-          <footer>
-              copyright Mike's Pokedex App
-          </footer>
+          <footer>copyright Mike's Pokedex App</footer>
         </body>
       </html>
     );
